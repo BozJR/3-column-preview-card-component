@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --Brightorange: hsl(31, 77%, 52%);
+    --Darkcyan: hsl(184, 100%, 22%);
+    --Verydarkcyan: hsl(179, 100%, 13%);
+    --Transparentwhite: hsla(0, 0%, 100%, 0.75);
+    --Verylightgray: hsl(0, 0%, 95%);
+
+    --ffbs: "Big Shoulders Display", sans-serif;
+    --fflex: "Lexend Deca", sans-serif;
+}
+
+body {
+    font-size: 15px;
+    background-color: var(--Verylightgray);
+}
+
+img {
+    margin-bottom: 1rem;
+}
+
+h1 {
+    font-family: var(--ffbs);
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+}
+
+h1, p {
+    color: var(--Verylightgray);   
+}
+
+p {
+    font-family: var(--fflex);
+    color: var(--Transparentwhite);
+    margin-bottom: 2rem;
+    padding-right: 2.6rem;
+    font-weight: 400;
+}
+
+button {
+    background-color: var(--Verylightgray);
+    text-decoration: none;
+    border: none;
+    border-radius: 1.5rem;
+    padding: 1rem 2rem;
+    font-weight: 500;
+}
+
+.container {
+    margin: 3rem 1rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    max-width: 350px;
+}
+
+.sedans {
+    background-color: var(--Brightorange);
+    padding: 2rem;
+    border-radius: 0.5rem 0.5rem 0 0;
+}
+
+.suvs {
+    background-color: var(--Darkcyan);
+    padding: 2rem;
+}
+
+.luxury {
+    background-color: var(--Verydarkcyan);
+    padding: 2rem;
+    border-radius: 0 0 0.5rem 0.5rem;
+}
+
+.sedans button {
+    color: var(--Brightorange);
+}
+
+.suvs button {
+    color: var(--Darkcyan);
+}
+
+.luxury button {
+    color: var(--Verydarkcyan);
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+@media (min-width: 425px) {
+    .container {
+        margin: 4rem auto;
+        max-width: 345px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin: 10rem auto;
+    }
+
+    .container p {
+        width: 210px;
+        text-align: left;
+        padding: 0;
+    }
+
+    .container button {
+        margin-top: 4rem;
+    }
+
+    .container img {
+        margin-bottom: 2rem;
+    }
+
+    .sedans {
+        border-radius: 1rem 0 0 1rem;
+    }
+
+    .luxury {
+        border-radius: 0 1rem 1rem 0;
+    }
+}
+
+
+
