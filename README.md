@@ -1,11 +1,9 @@
-# Frontend Mentor - 3-column preview card component solution
+# 3-column preview card component
 
-This is My solution to the [3-column preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
-
+This is My creation of a 3-column preview card component.
 
 ## Table of contents
 
-- [Overview](#overview)
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
   - [Links](#links)
@@ -13,8 +11,6 @@ This is My solution to the [3-column preview card component challenge on Fronten
   - [Continued development](#continued-development)
   - [Author](#author)
 
-
-## Overview
 
 ### The challenge
 
@@ -47,5 +43,5 @@ Keep using FLEXBOX over GRID so need to start practising using GRID more to beco
 
 ## Author
 
-- Frontend Mentor - [@BozJR](https://www.frontendmentor.io/profile/BozJR)
+- GitHub Profile - https://github.com/BozJR?tab=repositories
 
